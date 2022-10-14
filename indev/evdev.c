@@ -192,6 +192,39 @@ void evdev_read(lv_indev_drv_t * drv, lv_indev_data_t * data)
                     case KEY_TAB:
                         data->key = LV_KEY_NEXT;
                         break;
+                    case KEY_ESC:
+                        data->key = LV_KEY_ESC;
+                        break;
+                    case KEY_0:
+                        data->key = 48;
+                        break;
+                    case KEY_1:
+                        data->key = 49;
+                        break;
+                    case KEY_2:
+                        data->key = 50;
+                        break;
+                    case KEY_3:
+                        data->key = 51;
+                        break;
+                    case KEY_4:
+                        data->key = 52;
+                        break;
+                    case KEY_5:
+                        data->key = 53;
+                        break;
+                    case KEY_6:
+                        data->key = 54;
+                        break;
+                    case KEY_7:
+                        data->key = 55;
+                        break;
+                    case KEY_8:
+                        data->key = 56;
+                        break;
+                    case KEY_9:
+                        data->key = 57;
+                        break;
                     default:
                         data->key = 0;
                         break;
